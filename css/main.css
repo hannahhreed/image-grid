@@ -20,6 +20,14 @@ html {
   display: flex;
 }
 
+img:nth-child(3) {
+  display: none;
+}
+
+img:nth-child(4) {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
