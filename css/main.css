@@ -21,7 +21,7 @@ section {
   flex-wrap: wrap;
 }
 
-.photo:nth-child(2) {
+.photo:nth-child(3) {
   display: none;
 }
 
