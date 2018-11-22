@@ -52,7 +52,7 @@ img {
     line-height: 1.4;
   }
 
-  .photo:nth-child(2+3) {
+  .photo:nth-child(2), .photo:nth-child(3) {
     width: 50%;
   }
 
