@@ -20,12 +20,27 @@ html {
   display: flex;
 }
 
-img:nth-child(3) {
+.photo:nth-child(3) {
   display: none;
 }
 
-img:nth-child(4) {
+.photo:nth-child(4) {
   display: none;
+}
+
+body {
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -33,6 +48,10 @@ img:nth-child(4) {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .photo:nth-child(2+3) {
+    width: 50%;
   }
 
 }
