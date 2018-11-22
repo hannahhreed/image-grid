@@ -15,3 +15,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.photo {
+  display: flex;
+}
