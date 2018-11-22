@@ -16,7 +16,7 @@ html {
   box-sizing: inherit;
 }
 
-.photo {
+section {
   display: flex;
 }
 
